@@ -5,7 +5,7 @@ public class TestAvl {
         final int SMALL = 40;
         final int NUMS = 1000000;  // must be even
         final int GAP = 37;
-
+        System.out.println("Here we go");
         System.out.println("Checking... (no more output means success)");
 
         // inserts sequence of numbers "GAP" apart into AVL Tree
@@ -19,7 +19,7 @@ public class TestAvl {
 
         // removes odd numbers
         for (int i = 1; i < NUMS; i += 2) {
-            //   System.out.println( "REMOVE: " + i );
+            //System.out.println( "REMOVE: " + i );
             t.remove(i);
 
             if (NUMS < SMALL)
